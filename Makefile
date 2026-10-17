@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -g -ffreestanding -fno-strict-aliasing -fno-builtin -O2 -c
+CFLAGS = -Wall -Wextra -g -ffreestanding -fno-strict-aliasing -fno-builtin -O2 -nostdlib -c
 
 DESTDIR = /
 OS := $(shell uname)
